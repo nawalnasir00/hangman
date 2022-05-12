@@ -1,0 +1,111 @@
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  font-family: 'Abril Fatface', cursive;
+}
+main {
+  max-width: 610px;
+  margin: auto;
+}
+
+h1, h5 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Abril Fatface', cursive;
+}
+
+.win {
+  color: white;
+  background-color: green;
+}
+
+.loss {
+  color: white;
+  background-color: rgb(204, 125, 125);
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+#word {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 24pt;
+  color: rgb(255, 255, 153);
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#guesses {
+  text-align: center;
+  font-size: 16pt;
+  color: rgb(255, 255, 153);
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.guess {
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid rgba(183, 233, 164, 0.814);
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+    #guesses {
+    text-align: center;
+    font-size: 24pt;
+    color: rgba(183, 233, 164, 0.814);
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+  }
+
+  .guess {
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid rgba(183, 233, 164, 0.814);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+#guessBox {
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 18pt;
+    width: 200px;
+    padding-left: 10px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #666;
+  background-color: rgba(183, 233, 164, 0.814);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.button:hover {background-color: rgba(183, 233, 164, 0.814)}
+
+.button:active {
+  background-color: rgba(183, 233, 164, 0.814);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
